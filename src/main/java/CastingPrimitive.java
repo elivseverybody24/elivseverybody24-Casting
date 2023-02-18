@@ -1,6 +1,19 @@
+import javax.security.auth.x500.X500Principal;
 
-public class CastingPrimitive {
-    /**
+
+public class CastingPrimitive { 
+    public static void main(String args[]){ }
+    
+    
+    public int castToInt(double d){
+        
+        int castToInt = (int)(d);
+        return castToInt;
+        
+    }
+}
+
+/**
      * Casting is the conversion of one type to another. It exists for both primitive and object types.
      * Casting a double, which is a number with decimals, to an int, which is a number without decimals, will eliminate
      * the decimal portion of the number.
@@ -15,7 +28,3 @@ public class CastingPrimitive {
      * @param d a decimal number.
      * @return the int form of d.
      */
-    public int castToInt(double d){
-        return 0;
-    }
-}
