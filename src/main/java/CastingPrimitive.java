@@ -3,8 +3,7 @@ import javax.security.auth.x500.X500Principal;
 
 public class CastingPrimitive { 
     public static void main(String args[]){ }
-    
-    
+     
     public int castToInt(double d){
         
         int castToInt = (int)(d);
